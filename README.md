@@ -12,7 +12,8 @@ MinIO describes itself as:
 
 MinIO offers high-performance, S3 compatible object storage.Native to Kubernetes, MinIO is the only object storage suite available on every public cloud, every Kubernetes distribution, the private cloud and the edge. MinIO is software-defined and is 100% open source under GNU AGPL v3.
 
-For this guide, we will use AWS to host an instance, which will provide a public IP address, to which other servers or your project can connect
+For this guide, we will use AWS to host an instance, which will provide a public IP address, to which other servers or your project can connect.
+![Architecture, the MinIO Architecture](/images/architecture_diagram.svg)
 
 In this post you will see :
 - How to Provisioning EBS volume for MinIO instance with Terraform
