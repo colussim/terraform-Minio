@@ -57,3 +57,12 @@ null_resource.minio-server: Creation complete after 1m53s [id=112325094615097935
 Apply complete! Resources: 10 added, 0 changed, 0 destroyed.
 $>
 ```
+Next step , see details [here](https://https://techlabnews.com/Minio-terraform/ "Create a MinIO Server for S3-Compatible Object Hosting using Terraform")
+
+## Resources :
+
+<a href="https://min.io/product/overview#features" target="charts"> <img src="/images/minio_logo.png" style="height:30px;width:30px;"> MinIO features</a>
+
+<a href="https://docs.min.io/minio/baremetal/reference/minio-cli/minio-mc.html#" target="doc"><img src="/images/minio_logo.png" style="height:30px;width:30px;"> MinIO Client</a>
+
+<a href="https://docs.min.io/minio/baremetal/" target="doc"><img src="/images/minio_logo.png" style="height:30px;width:30px;"> MinIO installation</a>
