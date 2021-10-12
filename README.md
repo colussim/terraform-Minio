@@ -26,19 +26,19 @@ In this post you will see :
 Before you get started, you’ll need to have these things:
 * Terraform > 0.13.x
 * An AWS account with the IAM permissions
-* AWS CLI : [the AWS CLI Documentation](https://github.com/aws/aws-cli/tree/v2){:target="_blank" }
-* AWS key-pair [Create a key pair using Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html){:target="_blank" }
+* AWS CLI : [the AWS CLI Documentation](https://github.com/aws/aws-cli/tree/v2)
+* AWS key-pair [Create a key pair using Amazon EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html)
 * MySQL Database
 
 ## Initial setup
 
 - Clone the repository and install the dependencies:
-{% highlight html %}
+```
 $> git clone https://github.com/colussim/terraform-Minio.git
 $> cd terraform-Minio
 terraform-Minio $> mkdir ssh-keys
 terraform-Minio $>  terraform init
-{% endhighlight %}
+```
 
 > Copy your AWS key-pair in ssh-keys directory.
 > Edit the file **variables.tf** and modify if necessary the private_key variable
